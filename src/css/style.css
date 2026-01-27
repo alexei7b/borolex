@@ -74,7 +74,7 @@ html {
 		background-color: #000;
 		
 	}
-	@media screen and (max-width: 768px){
+	@media screen and (max-width: 944px){
 		font-size: 36px;
 	}
 	@media screen and (max-width: 567px){
@@ -86,9 +86,9 @@ html {
 	min-height: 100vh;
 	background: url('../img/bg-borolex-v2.png') center center/cover no-repeat;
 	padding-top: 20px;
-	/* @media screen and (max-width: 768px){
-		background: url('../img/Bg.png') center center/cover no-repeat;
-	}
+	 @media screen and (max-width: 720px){
+		background: url('../img/vent-mob.png') center center/cover no-repeat;
+	}/*
 	@media screen and (max-width: 576px){
 		min-height: 500px;
 		padding-top: 50px;
@@ -100,6 +100,10 @@ html {
 	margin: 0 auto;
 	width: 150px;
 	height: 150px;
+	@media screen and (max-width: 946px){
+		width: 120px;
+		height: 120px;
+	}
 }
 
 /* .promo__title {
@@ -137,13 +141,13 @@ html {
 	font-size: 48px;
 	color: var(--dark-color, #221f20);
 	text-align: center;
-	@media screen and (max-width: 768px){
+	@media screen and (max-width: 946px){
 		margin-top: 40px;
 		font-size: 36px;
 	}
 	@media screen and (max-width: 576px){
 		margin-top: 30px;
-		font-size: 16px;
+		font-size: 32px;
 	}
 }
 .btn {
@@ -169,12 +173,13 @@ html {
 		left: 50%;
 		transform: translateX(-50%);
 	} */
-	@media screen and (max-width: 870px){
+	/* @media screen and (max-width: 870px){
 		position: absolute;
-		bottom: 3%;
-		left: 13%;
+		bottom: 20px;
+		left: 5%;
+		margin: 0;
 		
-	}
+	} */
 	@media screen and (max-width: 576px){
 		width: 120px;
 		min-height: 30px;
@@ -202,9 +207,9 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 .promo__address {
 	position: absolute;
-	right: 5%;
-	bottom: 3%;
-	margin-top: 100px;
+	left: 6%;
+	bottom: 15px;
+	
 	font-weight: 400;
 	font-size: 16px;
 	color: var(--dark-color, #221f20);
